@@ -21,12 +21,12 @@ This class is responsible for generating the food object in the screen, a turtle
 <br>
 The class is composed of 1 method: .refresh()
 
-## Class: Scoreboard
+### Class: Scoreboard
 This class is responsible for creating the score on the screen, a turtle from the Turtle class is also created and writes the updated score on the screen. 
 <br>
 The class is composed of 3 methods: update_scorebaord(), reset(), and increase_score()
 
-## Class: Snake
+### Class: Snake
 This class is responsible for the snake in the game, along with its movement. An array of turtles is created from the Turtle class and modified with necessary attributes to reflect the shape of the snake on screen and give the user feedback.
 <br>
 This class is composed of 9 methods: create_snake(), add_segment(), reset(), extend(), move(), up(), down(), right(), and left()
